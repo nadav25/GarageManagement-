@@ -1,0 +1,3 @@
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\GarageManagement\bin\Debug\GarageManagement.exe.config
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\GarageManagement\obj\Debug\GarageManagement.exe
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\GarageManagement\obj\Debug\GarageManagement.pdb
