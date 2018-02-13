@@ -5,6 +5,16 @@ using System.Text;
 
 namespace GarageManagementUL
 {
+    /// <summary>
+    /// All the methods in this class were created for the maintenance of vehicles in the garage,
+    /// absorption of new vehicles and the release  vehicles from the garage.
+    /// All vehicles are held within a data structure - list .
+    /// warning!!!
+    /// It should be noted that this class is created only once,
+    /// so that such a situation of working on several garages will not happen.
+    /// In the first part of the work when we create an instance of this class we will create it static.
+    /// In the next steps it is possible to use Singleton pattern.
+    /// </summary>
     public class FactoryProductionVehicles
     {
         public  List<Vehicle> m_VehiclesList = new List<Vehicle>();
@@ -47,7 +57,7 @@ namespace GarageManagementUL
                 if (v.VehicleStatus == i_VehicleStatus)
                 {
                     allVehicles += v.Person.LicenseNumber + "\n";
-                    Console.WriteLine(v.ToString());
+                    //Console.WriteLine(v.ToString());
                 }
             }
 
@@ -138,6 +148,14 @@ namespace GarageManagementUL
             return status;
         }
 
+        /// <summary>
+        /// this method is charging an electric vehicle in the garage,
+        /// currently returns a string of the performance status of the charge. 
+        /// In the future, exceptions will be added
+        /// </summary>
+        /// <param name ="i_LicenseNumber"> The license number of the car that will load it</param>
+        /// <param name="i_chargingQuantity">The amount of time to charge</param>
+        /// <returns> string status </returns>
         public string Recharging(string i_LicenseNumber, float i_chargingQuantity)
         {
             string status = "Recharging was not performed as required";
@@ -149,7 +167,7 @@ namespace GarageManagementUL
                     {
                         float IsChange = v.Engine.CurrentAmountEnergy;
                         (v.Engine as ElectrigEngine).charging(i_chargingQuantity);
-                        if (v.Engine.CurrentAmountEnergy != IsChange)
+                        if (v.Engine.CurrentAmountEnergy != IsChange) // A change will not be made if the amount to add exceeds the maximum
                         {
                             status = "Recharging complete Ok ";
                             break;
@@ -173,9 +191,6 @@ namespace GarageManagementUL
 
             return status;
         }
-
-
-
 
     }
 }

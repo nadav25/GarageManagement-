@@ -3,3 +3,9 @@ C:\Users\Nadav\Desktop\Projects for GitHub\GarageManagement\GarageManagementUL\b
 C:\Users\Nadav\Desktop\Projects for GitHub\GarageManagement\GarageManagementUL\bin\Debug\GarageManagementUL.pdb
 C:\Users\Nadav\Desktop\Projects for GitHub\GarageManagement\GarageManagementUL\obj\Debug\GarageManagementUL.exe
 C:\Users\Nadav\Desktop\Projects for GitHub\GarageManagement\GarageManagementUL\obj\Debug\GarageManagementUL.pdb
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\GarageManagementUL\bin\Debug\GarageManagementUL.exe.config
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\GarageManagementUL\bin\Debug\GarageManagementUL.exe
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\GarageManagementUL\bin\Debug\GarageManagementUL.pdb
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\GarageManagementUL\obj\Debug\GarageManagementUL.csprojResolveAssemblyReference.cache
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\GarageManagementUL\obj\Debug\GarageManagementUL.exe
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\GarageManagementUL\obj\Debug\GarageManagementUL.pdb

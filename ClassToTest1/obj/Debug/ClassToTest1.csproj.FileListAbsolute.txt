@@ -1,0 +1,6 @@
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\ClassToTest1\bin\Debug\ClassToTest1.exe.config
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\ClassToTest1\bin\Debug\ClassToTest1.exe
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\ClassToTest1\bin\Debug\ClassToTest1.pdb
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\ClassToTest1\obj\Debug\ClassToTest1.exe
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\ClassToTest1\obj\Debug\ClassToTest1.pdb
+C:\Users\Nadav\Desktop\ProjectsForGitHub\GarageManagement\ClassToTest1\obj\Debug\ClassToTest1.csprojResolveAssemblyReference.cache

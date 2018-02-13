@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarageManagementUI", "Garag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarageManagementUL", "GarageManagementUL\GarageManagementUL.csproj", "{731E46C1-D051-41F9-A5D1-CDFDA4751872}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{38369F61-47D5-43EB-9375-1F7B5D7FAF4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{731E46C1-D051-41F9-A5D1-CDFDA4751872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{731E46C1-D051-41F9-A5D1-CDFDA4751872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{731E46C1-D051-41F9-A5D1-CDFDA4751872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38369F61-47D5-43EB-9375-1F7B5D7FAF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38369F61-47D5-43EB-9375-1F7B5D7FAF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38369F61-47D5-43EB-9375-1F7B5D7FAF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38369F61-47D5-43EB-9375-1F7B5D7FAF4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
